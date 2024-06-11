@@ -1,0 +1,85 @@
+/* TransactionsTable.css */
+
+.transactions-container {
+    margin: 50px;
+  }
+  .transactions-container h1{
+    background-color: aquamarine;
+  }
+  .transactions-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .transactions-table th,
+  .transactions-table td {
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .transactions-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .transactions-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9; /* Alternate row background color */
+  }
+
+  .pagination-con{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+
+  .pagination-con button{
+    margin: 0 10px;
+    cursor: pointer;
+  }
+  
+  .transactions-table tbody tr:nth-child(odd) {
+    background-color: #ffffff; /* Alternate row background color */
+  }
+  
+  .transactions-table img {
+    max-width: 100px;
+    height: auto;
+  }
+  
+  .transactions-table img {
+    max-width: 50px;
+    height: auto;
+    object-fit: contain;
+  }
+ 
+  .description{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .description:hover {
+    overflow:visible
+  }
+
+  .search-month-con{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+  }
+  .search{
+    width: 400px;
+    height: 20px;
+    border-radius: 5px;
+    padding: 5px;
+  }
+  .select{
+    width: 50px;
+    border-radius: 5px;
+    background-color: antiquewhite;
+  }
+  .select-options{
+    width: 100px;
+    border-radius: 5px;
+    text-align: center;
+    margin-left: 5px;
+  }
